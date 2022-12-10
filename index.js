@@ -1,10 +1,24 @@
+// Write your algorithm here
+  // Get string input
+  // Reverse the string input
+  // if the reversed stringis the same as the input
+  // return true
+  // else
+  // return false
+
+function reverseString (word){
+  return word.split("").reverse().join("")
+}
+   
 function isPalindrome(word) {
-  // Write your algorithm here
+  const reversedWord = reverseString(word)
+return word == reversedWord
 }
 
 /* 
   Add your pseudocode here
 */
+
 
 /*
   Add written explanation of your solution here
